@@ -7,6 +7,15 @@
 !/src/*/Makefile
 !/src/*/README
 
+# dysper / ling290 related audio files
+/egs/dysper/dysper_audio/train/*
+/egs/mycorpus
+!/egs/dysper/dysper_audio/train/BOOKS.TXT
+!/egs/dysper/dysper_audio/train/CHAPTERS.TXT
+!/egs/dysper/dysper_audio/train/flac2wav.sh
+!/egs/dysper/dysper_audio/train/LICENSE.TXT
+!/egs/dysper/dysper_audio/train/README.TXT
+
 # Compiled Object files and python ciles
 *.slo
 *.lo
