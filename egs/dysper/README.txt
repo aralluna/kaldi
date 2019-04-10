@@ -29,6 +29,17 @@ DYSPER: Dysarthric Speech Perception
 # Build directory stucture
         $ mkdir dysper_audio dysper_audio/train dysper_audio/test data data/train data/test data/local utils steps local
 
+# Virtual Environment
+Set up a python virtual environment to install necessary packages
+	$ python3 -m venv <<Some Path>>/virtualenv		# creates a virtual environment
+	$ source <<Some Path>>/vertualenv/bin/activate		# activates virtual environment
+	...
+	$ deactivate						# deactivates virtual environment
+
+Packages
+	$ pip install ffmpeg			# ffmpeg used for audio file type conversion
+	$ pip install ffmpeg-python		# python-specific ffmpeg
+
 # SETUP
 
 1. Get LibriSpeech audio data (100 hrs clean)
